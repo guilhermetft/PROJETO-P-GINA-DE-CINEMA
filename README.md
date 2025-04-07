@@ -1,3 +1,3 @@
-# PROJETO-PÁGINA-DE-CINEMA
+# PROJETO-PAGINA-DE-CINEMA
 
 Semanas praticas de DIW
