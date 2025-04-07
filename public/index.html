@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cinema</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>CINEMA</h1>
+            <a href="#">Filmes em cartaz</a>
+            <div class="dropdown">
+                <a href="#">Gênero</a>
+                <div class="dropdown-content">
+                    <a href="#">Ação</a>
+                    <a href="#">Comédia</a>
+                    <a href="#">Drama</a>
+                </div>
+            </div>
+            <div class="search-container">
+                <label for="search-checkbox" class="search-label">Pesquisar</label>
+                <input type="checkbox" id="search-checkbox" class="search-checkbox">
+                <input type="text" id="search-input" class="search-input" placeholder="Filme...">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="content">
+            <section class="destaques">
+                <h2>DESTAQUES</h2>
+                <div class="image-placeholder">
+                    <img src="https://picsum.photos/700/350?random=1" alt="Filme Destaque 1">
+                </div>
+            </section>
+
+            <aside class="trailer">
+                <h2>TRAILER</h2>
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/UaVTIH8mujA" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore aliquam nemo illum ut blanditiis expedita sit...</p>
+            </aside>
+        </div>
+
+        <section class="destaques-bottom">
+            <h2>FILMES EM CARTAZ</h2>
+            <div class="image-grid">
+                <div class="image-placeholder">
+                    <img src="https://picsum.photos/160/100?random=1" alt="Filme 1">
+                    <p>Filme 1</p>
+                </div>
+                <div class="image-placeholder">
+                    <img src="https://picsum.photos/160/100?random=2" alt="Filme 2">
+                    <p>Filme 2</p>
+                </div>
+                <div class="image-placeholder">
+                    <img src="https://picsum.photos/160/100?random=3" alt="Filme 3">
+                    <p>Filme 3</p>
+                </div>
+                <div class="image-placeholder">
+                    <img src="https://picsum.photos/160/100?random=4" alt="Filme 4">
+                    <p>Filme 4</p>
+                </div>
+                <div class="image-placeholder">
+                    <img src="https://picsum.photos/160/100?random=5" alt="Filme 5">
+                    <p>Filme 5</p>
+                </div>
+                <div class="image-placeholder">
+                    <img src="https://picsum.photos/160/100?random=6" alt="Filme 6"> 
+                    <p>Filme 6</p>
+                </div>
+            </div>
+            
+            <footer class="footer">
+                <ul>
+                    <li>Copyright 2025 © - CINEMA</li>
+                    <li>Termos de Uso</li>
+                    <li>Sobre Nós</li>
+                    <li>Contato</li>
+                </ul>
+            </footer>
+        </section>
+
+    </main>
+</body>
+</html>
