@@ -76,3 +76,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
+
+//O DOM só vai carregar os filmes em cartaz quando o site estiver aberto, sem estar carregado é como se não existisse esse filmes no site
