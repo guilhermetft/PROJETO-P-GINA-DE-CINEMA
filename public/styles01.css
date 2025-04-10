@@ -173,7 +173,7 @@ body {
 /* ---------------- Filmes em Cartaz ---------------- */
 .destaques-bottom {
     background-color: #9ca3af;
-    padding: 20px 20px 40px;
+    padding: 20px 20px 20px;
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -183,10 +183,6 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-}
-
-.extra-filme {
-    display: none;
 }
 
 /* Estilo para cada bloco de filme */
@@ -223,12 +219,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     color: white;
     box-sizing: border-box;
+    margin-top: 20px;
 }
 
 footer ul {

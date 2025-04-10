@@ -3,37 +3,37 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             id: 1,
             titulo: "Interestellar",
-            imagem: "https://picsum.photos/160/100?random=1",
+            imagem: "imgs/interestellar.jpg",
             descricao: "Um grupo de astronautas viaja por um buraco de minhoca em busca de um novo lar para a humanidade..."
         },
         {
             id: 2,
             titulo: "Homem Aranha",
-            imagem: "https://picsum.photos/160/100?random=2",
+            imagem: "imgs/spider.jpg",
             descricao: "Peter Parker, um adolescente comum, ganha superpoderes após ser picado por uma aranha radioativa..."
         },
         {
             id: 3,
             titulo: "Homem de ferro",
-            imagem: "https://picsum.photos/160/100?random=3",
+            imagem: "imgs/ironman.jpg",
             descricao: "O bilionário Tony Stark é sequestrado e constrói uma armadura tecnológica para escapar..."
         },
         {
             id: 4,
             titulo: "Poderoso Chefão",
-            imagem: "https://picsum.photos/160/100?random=4",
+            imagem: "imgs/godfather.jpg",
             descricao: "A história da família mafiosa Corleone, liderada por Don Vito e depois por seu filho Michael..."
         },
         {
             id: 5,
             titulo: "Batman Darknight",
-            imagem: "https://picsum.photos/160/100?random=5",
+            imagem: "imgs/batman.jpg",
             descricao: "Batman enfrenta seu maior inimigo, o Coringa, que espalha o caos em Gotham..."
         },
         {
             id: 6,
             titulo: "Ratatoullie",
-            imagem: "https://picsum.photos/160/100?random=6",
+            imagem: "imgs/ratatoulie.jpg",
             descricao: "Remy, um rato com talento para a culinária, sonha em ser chef em Paris..."
         },
     ];
