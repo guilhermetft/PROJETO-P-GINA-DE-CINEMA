@@ -235,6 +235,35 @@ footer li {
     display: inline;
 }
 
+/* Página de Detalhes */
+#filme-detalhe {
+    padding: 20px;
+    text-align: center;
+}
+
+#filme-detalhe h1 {
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.imagem-container {
+    width: 50%;
+    margin: 0 auto 20px auto;
+}
+
+.imagem-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#filme-detalhe p {
+    font-size: 16px;
+    color: #1f2937;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
 @media (max-width: 480px) {
     .header {
         flex-direction: column;
