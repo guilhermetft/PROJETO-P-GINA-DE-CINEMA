@@ -70,7 +70,6 @@ body {
     cursor: pointer;
 }
 
-/* Esconde o conteúdo do dropdown por padrão */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -117,12 +116,10 @@ body {
     cursor: pointer;
 }
 
-/* Exibe a caixa de pesquisa ao clicar no label */
 .search-checkbox:checked + .search-input {
     display: block;
 }
 
-/* ---------------- Estilo da Caixa de Seleção de Gênero ---------------- */
 .genre-container {
     margin-left: 20px;
 }
@@ -206,7 +203,6 @@ body {
 }
 
 .image-placeholder p {
-    margin-top: 10px;
     color: white;
     font-size: 14px;
     text-align: center;
